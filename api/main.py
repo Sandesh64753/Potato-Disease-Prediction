@@ -10,7 +10,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost",
-    "http://localhost:5173",
+    "https://potato-disease-prediction-frontend.onrender.com/",
 ]
 app.add_middleware(
     CORSMiddleware,
